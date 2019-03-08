@@ -1,6 +1,6 @@
 <?php
 //Aula 15 PHP 7.
-//Variáveis pré-definidas (arrays super globais) e variáveis de ambiente (globais).
+//Variáveis pré-definidas (arrays super globais que começam com _ e escritas em maiúsculo) e variáveis de ambiente (globais).
 //Com PHP é muti fácil construir logs eficientes.
 
 //URL parser, separa endereço e os valores das variáveis (chave x valor).

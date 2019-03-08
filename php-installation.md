@@ -13,9 +13,7 @@ Faça download pelo site [PHP.net](https://secure.php.net/downloads.php) da vers
 
 > sudo make install  
 
-> cd /etc/php7    
-
-> cd bin  
+> cd /etc/php7/bin  
 
 > /etc/php7/bin/php -v  
 
