@@ -15,8 +15,10 @@
     </form>
     
     <?php 
-        $name = $_POST['address'];
-        echo "<h3>Hello $name </h3>";
+        
+        $pattern = ''
+        $address = $_POST['address'];
+        echo "<h3>$address </h3>";
     
     ?>
     
