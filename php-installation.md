@@ -23,3 +23,11 @@ Faça download pelo site [PHP.net](https://secure.php.net/downloads.php) da vers
 
 > php -S localhost:8080  
 ```
+
+## Atualização
+Para distribuições Debian 10, simplesmente faça o download do php versão 7.3.4 pelo gerenciador de pacotes apt.
+```bash
+sudo apt update
+sudo apt install php
+php -v
+```
