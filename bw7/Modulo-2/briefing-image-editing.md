@@ -46,12 +46,52 @@ Existe uma diversidade de metodologias de cores (__HSB__, __Lab__ etc), para sab
 
 ### Otimizando imagens para a web
 
-Tamanhos, tipos de arquivo, resolução, SEO, nesta seção esses detalhes parecerão bem menos incoerentes.
+Tamanhos, tipos de arquivo, resolução, SEO, nesta seção esses detalhes parecerão bem menos incoerentes no decorrer dos tópicos a seguir.
 
-Aula #28 minuto 7:47
+#### Resolução e tamanho de imagens
 
-https://flothemes.com/flothemes-image-sizes/
+Para imagens que serão impressas recomenda-se utilizar entre 300dpi a 720dpi de resolução.
 
-https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web
+Para visualiação em telas e monitores utilize (1920 x 1080)pixels para qualidade Full HD ou (2560 x 1440)pixels para qualidade Quad HD, comum em smartphones, e (3840 x 2160)pixels para qualidade Ultra HDTV.
 
-https://www.foregroundweb.com/image-size/
+É útil saber também sobre a proporção da tela em que o conteúdo será visualizado, essa medida determina a largura das telas em que o conteúdo será exibido. Os formatos mais comuns de *aspect ratio* são 16:9, chamado de formato panorâmico, 17:9, 4:3, 5:4 e 21:9.
+
+Uma tela é medida do canto inferior esquerdo até o canto superior direito, na diagonal, e geralmente é apresentada em polegadas, cada polegada equivale a 2.54 centímetros.
+
+Confira essa [calculadora de DPI, PPI e MP](https://www.sven.de/dpi/). Pode vir a ser útil.
+
+Aqui estão alguns links que abordam o tópico de maneira mais aprofundada:
+
+* [Flothemes](https://flothemes.com/flothemes-image-sizes/)
+* [Squarespace](https://support.squarespace.com/hc/en-us/articles/206542517-Formatting-your-images-for-display-on-the-web)
+* [Foregroundweb](https://www.foregroundweb.com/image-size/)
+
+#### Tipos de arquivos
+
+Os 4 tipos de formatos de imagem suportados para Web mais populares são: *JPEG/JPG*, *PNG*, *GIF*, *SVG*.
+
+![lbrandy-webcomic-xkcd](http://lbrandy.com/assets/jpg_vs_png2.png)
+
+Você irá usar *Joint Photographic Experts Group* quando se preocupa em reduzir o tamanho original da imagem porque ele trabalha com o método *lossy compressed*, sua utilização é recomendada para fotografias, pois seu arquivo original consome muita memória e você está disposto a perder um pouco de qualidade para reduzir espaço.
+
+Você irá usar *Portable Network Graphics* para apresentar imagens que contenham texto ou que não podem perder sofrer perda de qualidade comparadas ao arquivo original porque usa o método *lossless compression*, assim como o *GIF*. É suportado na maioria dos navegadores mas não em todos, também possui o recurso de trabalhar a opacidade da imagem.
+
+Você irá usar *Graphics Interchange Format* para animações, e tão somente para este fim.
+
+Você irá usar *Scalable Vector Graphics* quando não quiser trabalhar com imagens bitmap, portanto abandonando os pixels você abandona a preocupação com qualidade e resolução das imagens. Exemplos práticos são ícones, realismo, cartoons e outros efeitos gráficos de design. É com sem sombra de dúvidas a tecnologia do futuro. Você pode inclusive criar animações usando *SVG*.
+
+O tamanho máximo tolerado para um arquivo de imagem é de 20Mb, mas recomenda-se manter suas imagens com menos de 800Kb.
+
+#### Search engine optimization
+
+Entenda como *SEO* (pronuncia-se tal qual a palavra *seal*), o emprego de metodologias para alavancar o alcance e acesso de uma página ou site pelos usuários buscando atender diretrizes de boas práticas convencionadas por mecanismos de busca da internet, entidades como a W3C, e inclusive patentes e pesquisas científicas.
+
+É um assunto que requer uma leitura mais aprofundada e foge ao escopo deste documento, por isso serão listados alguns links abaixo para melhor entendimento deste tópico:
+
+* [Moz: Guide to SEO](https://moz.com/beginners-guide-to-seo)
+
+* [Mozila glossary for SEO](https://developer.mozilla.org/en-US/docs/Glossary/SEO)
+
+* [Compliance matters](https://trafficbox.org/w3c_seo/)
+
+* [SEO browser plugins](https://www.searchenginejournal.com/seo-tools/browser-extensions-plugins/)
