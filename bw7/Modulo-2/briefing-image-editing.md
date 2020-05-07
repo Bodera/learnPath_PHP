@@ -46,7 +46,7 @@ Existe uma diversidade de metodologias de cores (__HSB__, __Lab__ etc), para sab
 
 ### Otimizando imagens para a web
 
-Tamanhos, tipos de arquivo, resolução, SEO, nesta seção esses detalhes parecerão bem menos incoerentes no decorrer dos tópicos a seguir.
+Tamanhos, tipos de arquivo, resolução, SEO, nesta seção esses detalhes parecerão bem menos incoerentes no decorrer dos tópicos a seguir. Uma dica: busque repositórios com imagens livres de direitos autorais, para evitar conflitos.
 
 #### Resolução e tamanho de imagens
 
