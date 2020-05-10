@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Latina';
+    src: url("assets/fonts/Latina.woff") format("woff");
+}
+
+*{
+    font-family: Latina, serif;
+}
+
+body{
+    /*reshuffling spacements*/
+    margin: 0;
+    padding: 0;
+    background-color: #FBD303;
+}
+
+.header{
+    height: 60px;
+    background-color: #1E1F1A;
+}
+
+.header--content{
+    /*centralized div for place contents of header*/
+    width: 1190px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.header--content-logotype{
+    float: left;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.header--content-menu{
+    float: right;
+}
+
+.header--content-menu ul,
+.header--content-menu li{
+    /*modifying display of menu options*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header--content-menu li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.header--content-menu li:hover{
+    background-color: #FBD303;
+}
+
+.facade{
+    height: 550px;
+    background-image: url("assets/images/facade.jpg");
+    background-size: 100% 100%;
+}

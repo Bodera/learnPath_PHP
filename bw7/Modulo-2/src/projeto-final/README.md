@@ -6,10 +6,19 @@ Irá sintetizar o material contido no documento HTML e explicar propriedades rel
 
 Vamos usar o layout de inspiração deste projeto como um exemplo.
 
-![Link](./assets/inspiration-layout.jpg)
+![Layout proposto](./assets/images/inspiration-layout.jpg)
 
 Uma página web se trata de retângulos dentro de retângulos. Podemos abstrair cada elemento, ou conjunto de elementos, como uma *div*.
 
-![Link](./assets/inspiration-layout-divs.svg)
+![Divs do layout proposto](./assets/images/inspiration-layout-divs.svg)
 
-minuto 07:15 - pensando num tema pro projeto.
+Os próximos tópicos irão apresentar o briefing do projeto desenvolvido.
+
+### La Zenaida: comida mediterrânea
+
+Softwares utilizados:
+
+- Figma
+- Gimp
+- Inkspace
+- Repositórios de imagens sem royalties
