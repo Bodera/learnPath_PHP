@@ -1,4 +1,5 @@
-## Curso PHP do 0 ao profissional
+# Curso PHP do 0 ao profissional
+
 * Módulo 1 - Introdução geral
 * Módulo 2 - HTML e CSS
 * Módulo 3 - HTML5 e CSS3
