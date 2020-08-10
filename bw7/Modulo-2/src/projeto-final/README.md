@@ -22,3 +22,9 @@ Softwares utilizados:
 - Gimp
 - Inkspace
 - Repositórios de imagens sem royalties
+
+### Aviso
+
+O projeto é uma reprodução de um layout já pronto, com algumas modificações, e serviu apenas para fixação dos conceitos básicos de manipulação de elementos usando as tecnologias HTML e CSS.
+
+Trata-se de um site estático com posicionamento pré-definido dos elementos, apropriado para telas com resolução de 1364x767.
