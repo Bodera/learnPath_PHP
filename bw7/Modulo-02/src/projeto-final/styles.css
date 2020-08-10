@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Latina';
+    src: url("assets/fonts/Latina.woff") format("woff");
+}
+
+*{
+    font-family: Latina, serif;
+}
+
+body{
+    /*reshuffling spacements*/
+    margin: 0;
+    padding: 0;
+    background-color: #FBD303;
+}
+
+.header{
+    height: 60px;
+    background-color: #1E1F1A;
+}
+
+.header--content{
+    /*centralized div for place contents of header*/
+    width: 1190px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.header--content-logotype{
+    float: left;
+    font-size: 38px;
+    line-height: 60px;
+}
+
+.header--content-menu{
+    float: right;
+}
+
+.header--content-menu ul,
+.header--content-menu li{
+    /*modifying display of menu options*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header--content-menu li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.header--content-menu li:hover{
+    background-color: #FBD303;
+}
+
+.banner{
+    height: 300px;
+    background-color: #293225;
+}
+
+.banner--content{
+    width: 1200px;
+    margin: auto;
+}
+
+.banner--content-text{
+    float: left;
+}
+
+.banner--content-image{
+    float: right;
+}
+
+.banner--content-image img{
+    margin-right: 55px;
+}
+
+.calltoaction{
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.instigation{
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.btnwhatsapp{
+    background-color: #a7fb03;
+    width: 290px;
+    height: 60px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.showcase--content{
+    width: 1200px;
+    margin: auto;
+}
+
+.menu{
+    height: 90px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 90px;
+    margin-left: 300px;
+}
+
+.menu-photos{
+    margin-left: 150px;
+}
+
+.menu-photos img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: #1E1F1A;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
