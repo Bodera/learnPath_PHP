@@ -58,8 +58,78 @@ body{
     background-color: #FBD303;
 }
 
-.facade{
-    height: 550px;
-    background-image: url("assets/images/facade.jpg");
-    background-size: 100% 100%;
+.banner{
+    height: 300px;
+    background-color: #293225;
+}
+
+.banner--content{
+    width: 1200px;
+    margin: auto;
+}
+
+.banner--content-text{
+    float: left;
+}
+
+.banner--content-image{
+    float: right;
+}
+
+.banner--content-image img{
+    margin-right: 55px;
+}
+
+.calltoaction{
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.instigation{
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.btnwhatsapp{
+    background-color: #a7fb03;
+    width: 290px;
+    height: 60px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.showcase--content{
+    width: 1200px;
+    margin: auto;
+}
+
+.menu{
+    height: 90px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 90px;
+    margin-left: 300px;
+}
+
+.menu-photos{
+    margin-left: 150px;
+}
+
+.menu-photos img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: #1E1F1A;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-top: 60px;
 }
